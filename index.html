@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EdTutor - Your Personal AI Teacher</title>
+    
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom Styles for Font and Smooth Scrolling -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        /* Gradient text effect */
+        .text-gradient {
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header / Navigation -->
+    <header class="bg-gray-50/80 backdrop-blur-lg fixed top-0 left-0 right-0 z-50 border-b border-gray-200">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <!-- Logo -->
+                
+                <a href="logo.png" class="text-2xl font-bold">
+                    <span class="bg-gradient-to-r from-blue-600 to-teal-400 text-gradient">NIVA</span>
+                </a>
+                
+                <!-- Desktop Navigation Links -->
+                <nav class="hidden md:flex items-center space-x-8">
+                    <a href="#features" class="text-gray-600 hover:text-blue-600 transition-colors">Features</a>
+                    <a href="#how-it-works" class="text-gray-600 hover:text-blue-600 transition-colors">How It Works</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors">About</a>
+                </nav>
+                
+                <!-- CTA Button -->
+                <a href="main3.html" class="hidden md:inline-block bg-blue-600 text-white font-semibold px-5 py-2 rounded-lg shadow-md hover:bg-blue-700 transition-transform transform hover:scale-105">
+                    Get Started
+                </a>
+
+                <!-- Mobile Menu Button (optional, for future enhancement) -->
+                <button class="md:hidden text-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="pt-32 pb-20 md:pt-40 md:pb-28 text-center bg-white">
+            <div class="container mx-auto px-6">
+                <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-gray-900">
+                    The Future of Learning is <span class="bg-gradient-to-r from-blue-600 to-teal-400 text-gradient">Personal</span>.
+                </h1>
+                <p class="mt-4 max-w-2xl mx-auto text-lg md:text-xl text-gray-600">
+                    Meet NIVA, your AI-powered virtual teacher. Adaptive, empathetic, and always available to help you master any subject, your way <br> <strong>SpecialEd for Class 11 and 12.</strong>
+                </p>
+                <div class="mt-8 flex justify-center items-center gap-4">
+                    <a href="main3.html" class="bg-blue-600 text-white font-semibold px-8 py-3 rounded-lg shadow-lg hover:bg-blue-700 transition-transform transform hover:scale-105">
+                        Start Your First Lesson
+                    </a>
+                    <a href="#how-it-works" class="bg-white text-gray-700 font-semibold px-8 py-3 rounded-lg border border-gray-300 hover:bg-gray-100 transition-all">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Features Section -->
+        <section id="features" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Education Reimagined for You</h2>
+                    <p class="mt-2 text-lg text-gray-600">Core features designed for a truly personalized journey.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Feature 1: Personalized Lessons -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow transform hover:-translate-y-1">
+                        <div class="bg-blue-100 text-blue-600 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2 text-gray-900">Personalized Lessons</h3>
+                        <p class="text-gray-600">Content that adapts in real-time to your pace and progress, ensuring you're always challenged but never overwhelmed.</p>
+                    </div>
+
+                    <!-- Feature 2: Learning Style Quiz -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow transform hover:-translate-y-1">
+                        <div class="bg-teal-100 text-teal-600 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><line x1="10" y1="9" x2="8" y2="9"></line></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2 text-gray-900">Learning Style Discovery</h3>
+                        <p class="text-gray-600">A quick, insightful quiz identifies if you're a visual, auditory, or kinesthetic learner to tailor your experience.</p>
+                    </div>
+
+                    <!-- Feature 3: AI Chat Tutor -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow transform hover:-translate-y-1">
+                        <div class="bg-blue-100 text-blue-600 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2 text-gray-900">24/7 AI Chat Tutor</h3>
+                        <p class="text-gray-600">Stuck on a problem at 3 AM? NIVA is always online to provide instant, clear explanations and solve doubts.</p>
+                    </div>
+
+                    <!-- Feature 4: Emotion Feedback -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow transform hover:-translate-y-1">
+                        <div class="bg-teal-100 text-teal-600 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M8 14s1.5 2 4 2 4-2 4-2"></path><line x1="9" y1="9" x2="9.01" y2="9"></line><line x1="15" y1="9" x2="15.01" y2="9"></line></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2 text-gray-900">Empathetic Feedback</h3>
+                        <p class="text-gray-600">NIVA senses when you're frustrated or excited and responds with encouragement to keep you motivated.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section id="how-it-works" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Your Learning Journey in 4 Simple Steps</h2>
+                    <p class="mt-2 text-lg text-gray-600">Get started in minutes and unlock a new way to learn.</p>
+                </div>
+                <div class="relative">
+                    <!-- Dotted line for desktop -->
+                    <div class="hidden lg:block absolute top-1/2 -translate-y-1/2 left-0 right-0 h-0.5">
+                        <svg width="100%" height="2">
+                          <line x1="0" y1="1" x2="100%" y2="1" stroke-width="2" stroke-dasharray="8 8" class="stroke-gray-300"/>
+                        </svg>
+                    </div>
+                    <div class="relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+                        <!-- Step 1 -->
+                        <div class="text-center">
+                            <div class="relative">
+                                <div class="mx-auto w-20 h-20 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center text-2xl font-bold border-4 border-white shadow-md">1</div>
+                            </div>
+                            <h3 class="mt-6 text-xl font-semibold text-gray-900">Choose Your Subject</h3>
+                            <p class="mt-2 text-gray-600">Pick from a wide range of subjects, from Math to Music Theory.</p>
+                        </div>
+                        <!-- Step 2 -->
+                        <div class="text-center">
+                            <div class="relative">
+                                <div class="mx-auto w-20 h-20 rounded-full bg-teal-100 text-teal-600 flex items-center justify-center text-2xl font-bold border-4 border-white shadow-md">2</div>
+                            </div>
+                            <h3 class="mt-6 text-xl font-semibold text-gray-900">Take the Style Quiz</h3>
+                            <p class="mt-2 text-gray-600">A short, fun quiz helps NIVA understand how you learn best.</p>
+                        </div>
+                        <!-- Step 3 -->
+                        <div class="text-center">
+                            <div class="relative">
+                                <div class="mx-auto w-20 h-20 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center text-2xl font-bold border-4 border-white shadow-md">3</div>
+                            </div>
+                            <h3 class="mt-6 text-xl font-semibold text-gray-900">Meet Your AI Teacher</h3>
+                            <p class="mt-2 text-gray-600">Start your personalized lesson with a friendly AI avatar.</p>
+                        </div>
+                        <!-- Step 4 -->
+                        <div class="text-center">
+                            <div class="relative">
+                                <div class="mx-auto w-20 h-20 rounded-full bg-teal-100 text-teal-600 flex items-center justify-center text-2xl font-bold border-4 border-white shadow-md">4</div>
+                            </div>
+                            <h3 class="mt-6 text-xl font-semibold text-gray-900">Track Your Progress</h3>
+                            <p class="mt-2 text-gray-600">See your improvements on a clean, insightful dashboard.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Avatar / Stand Out Feature Section -->
+        <section id="about" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-col md:flex-row items-center gap-12 md:gap-16">
+                    <!-- Avatar Image -->
+                    
+                    <!-- Text Content -->
+                    <div class="w-full md:w-1/ lg:w-7/12 text-center md:text-left">
+                        <h2 class="text-3xl md:text-4xl font-bold text-gray-900">More Than Just an App, It's a Partner in Learning</h2>
+                        <p class="mt-4 text-lg text-gray-600">We're building NIVA to be a warm, personal, and accessible teacher. With features like an animated avatar and voice interaction, learning feels less like a task and more like a conversation.</p>
+                        <ul class="mt-6 space-y-3 text-left">
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-blue-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                <span><strong class="font-semibold">Animated Teacher Avatar</strong> for a personal, warm experience.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-blue-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                <span><strong class="font-semibold">Voice Input & Output</strong> for hands-free, accessible learning.</span>
+                            </li>
+                             <li class="flex items-start">
+                                <svg class="w-6 h-6 text-blue-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                <span><strong class="font-semibold">Real Data Insights</strong> like "Your accuracy improved by 15% this week!"</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white">
+        <div class="container mx-auto px-6 py-12">
+            <div class="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+                <div>
+                    <a href="#" class="text-3xl font-bold">
+                        <span class="bg-gradient-to-r from-blue-500 to-teal-300 text-gradient">NIVA</span>
+                    </a>
+                    <p class="text-gray-400 mt-2">Personalized learning for everyone.</p>
+                </div>
+                <div class="flex mt-8 md:mt-0 space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">About</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">Privacy Policy</a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">Contact</a>
+                </div>
+            </div>
+            <div class="mt-8 border-t border-gray-800 pt-8 text-center text-gray-500">
+                <p>&copy; 2025 NIVA Project. Built for the Hackathon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
